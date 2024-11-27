@@ -3,8 +3,8 @@
 import { MutableRefObject , useRef } from 'react';
 import { usePathname } from 'next/navigation';
 import gsap from 'gsap-trial/dist/gsap';
-import { ScrollTrigger } from 'gsap-trial/dist/ScrollTrigger';
-import { ScrollSmoother } from 'gsap-trial/dist/ScrollSmoother';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import { ScrollSmoother } from 'gsap/dist/ScrollSmoother';
 import { Inter } from 'next/font/google';
 import { ReactNode } from 'react';
 import Header from '../components/Header';
